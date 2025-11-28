@@ -1,0 +1,28 @@
+.imageOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.imageOverlayBackground {
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    transition: background-color 200ms ease;
+}
+
+.imageContainter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 56px auto;
+    padding: 16px 56px;
+}

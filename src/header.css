@@ -1,0 +1,41 @@
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 48px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 8px;
+}
+
+.headerNavigation {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    max-width: 1130px;
+    margin: auto;
+    padding: 16px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.headerNavigationItem {
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 4px 16px;
+    cursor: pointer;
+    transition: background-color 300ms ease;
+}
+
+.headerNavigationItem:hover {
+    background-color: #dde;
+    border-radius: 4px;
+    color: #226;
+    transition: background-color 500ms ease;
+}
+
+.headerNavigationItemFocused .headerNavigationItemLink {
+    border-bottom: 1px solid #226;
+}

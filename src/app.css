@@ -1,0 +1,57 @@
+.app {
+  text-align: center;
+}
+
+.container {
+  padding: 56px 16px;
+  max-width: 1130px;
+  margin: auto;
+}
+
+.images {
+    height: 136px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    position: relative;
+}
+
+.image:nth-child(odd) {
+    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-right: 60px;
+    margin-left: -90px;
+}
+
+.image:nth-child(even) {
+    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.image:nth-child(odd) .imgContainer {
+    position: absolute;
+    top: -50%;
+}
+
+.imgContainer .imageSvg {
+    position: absolute;
+    top: -9px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.75;
+    transition: opacity 0.3s ease;
+}
+
+.imgContainer .imageSvg:hover {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
