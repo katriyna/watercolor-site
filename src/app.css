@@ -55,3 +55,21 @@
     opacity: 0;
     transition: opacity 0.5s ease;
 }
+
+.leftArrow {
+    z-index: 6;
+    cursor: pointer;
+    position: absolute;
+    left: 32px;
+    top: 35%;
+    rotate: -90deg;
+}
+
+.rightArrow {
+    z-index: 6;
+    cursor: pointer;
+    position: absolute;
+    right: 32px;
+    top: 35%;
+    rotate: 90deg;
+}
