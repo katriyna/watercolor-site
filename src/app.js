@@ -1,8 +1,8 @@
 import {useCallback, useEffect, useMemo, useState} from 'react';
 
 import {ImageOverlay} from './components/image-overlay/image-overlay';
+import {loadImages} from './components/api/api';
 import './app.css';
-import {loadImages} from "./components/api/api";
 
 function App() {
   const [images, setImages] = useState([]);

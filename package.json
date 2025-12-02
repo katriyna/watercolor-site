@@ -15,6 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-and-copy": "yarn run build && rm -rf build/watercolors/original && mv build/static ../katriyna.github.io/static && mv build/watercolors ../katriyna.github.io/watercolors && cp -r build/* ../katriyna.github.io/main/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

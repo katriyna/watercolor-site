@@ -1,4 +1,3 @@
-
 export async function loadImages() {
   const res = await fetch('/watercolors/metadata/info.json');
   if (!res.ok) {
