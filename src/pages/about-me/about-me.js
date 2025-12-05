@@ -6,7 +6,7 @@ function AboutMe() {
     <div className="about-me">
       <div className="about-me-container">
         <div className="about-me-avatar">
-          <img src="/ava.png" alt="avatar" />
+          <img src="/watercolors/ava.png" alt="avatar" />
         </div>
         <div className="about-me-text">
           <h2>Ekaterina Zaikina</h2>
@@ -21,8 +21,8 @@ function AboutMe() {
               Here are links to my <a href="https://www.linkedin.com/in/zaikina/" target="_blank">linkedin profile</a> and <a href="/main?page=watercolors">collection of paintings</a>.
             </p>
             <p>
-              In the past I used to be also interested in non-formal conferences, and was co-organiser of <a href="/nc2014" target="_blank">Nerd|Camp 2014</a>, <a href="/nc2015" target="_blank">Nerd|Camp 2015</a>,{' '}
-              <a href="/nc2016" target="_blank">Nerd|Camp 2016</a>, <a href="/nc2017-spring" target="_blank">Nerd|Camp 2017 Spring</a>, <a href="/nc2017-outumn" target="_blank">Nerd|Camp 2017 Fall</a>,{' '}<a href="/nc2019" target="_blank">Nerd|Camp 2019</a> as well as{' '}
+              In the past I used to be also interested in non-formal conferences, and was co-organiser of <a href="/nc2014" target="_blank">Nërd|Camp 2014</a>, <a href="/nc2015" target="_blank">Nërd|Camp 2015</a>,{' '}
+              <a href="/nc2017-spring" target="_blank">Nërd|Camp 2017 Spring</a>, <a href="/nc2017-outumn" target="_blank">Nërd|Camp 2017 Fall</a>,{' '}<a href="/nc2019" target="_blank">Nërd|Camp 2019</a> as well as{' '}
               conferences at my work.
             </p>
           </div>
