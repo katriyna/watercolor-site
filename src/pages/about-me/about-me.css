@@ -1,0 +1,25 @@
+.about-me {
+    padding: 56px 16px;
+    max-width: var(--content-width);
+    margin: auto;
+
+}
+
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    width: 100%;
+}
+
+.about-me-avatar {
+    width: 40%;
+    margin: 24px;
+    text-align: center;
+    display: flex;
+}
+
+.about-me-text {
+    line-height: 24px;
+}
+

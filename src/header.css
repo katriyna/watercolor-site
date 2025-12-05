@@ -11,7 +11,7 @@
 .headerNavigation {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-    max-width: 1130px;
+    max-width: var(--content-width);
     margin: auto;
     padding: 16px 0;
     display: flex;
@@ -27,6 +27,14 @@
     padding: 4px 16px;
     cursor: pointer;
     transition: background-color 300ms ease;
+}
+
+.headerNavigationItemLink,
+.headerNavigationItemLink:visited,
+.headerNavigationItemLink:hover,
+.headerNavigationItemLink:focus {
+    color: #27282E;
+    text-decoration: none;
 }
 
 .headerNavigationItem:hover {

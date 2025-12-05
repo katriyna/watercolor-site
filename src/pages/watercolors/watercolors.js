@@ -1,10 +1,10 @@
 import {useCallback, useEffect, useMemo, useState} from 'react';
 
-import {ImageOverlay} from './components/image-overlay/image-overlay';
-import {loadImages} from './components/api/api';
-import './app.css';
+import {ImageOverlay} from '../../components/image-overlay/image-overlay';
+import {loadImages} from '../../components/api/api';
+import './watercolors.css';
 
-function App() {
+function Watercolors() {
   const [images, setImages] = useState([]);
 
   const imagesGrid = useMemo(() => {
@@ -93,4 +93,4 @@ function App() {
   );
 }
 
-export default App;
+export default Watercolors;

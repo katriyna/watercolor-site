@@ -4,7 +4,7 @@
 
 .container {
   padding: 56px 16px;
-  max-width: 1130px;
+  max-width: var(--content-width);
   margin: auto;
 }
 

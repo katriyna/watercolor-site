@@ -1,21 +1,27 @@
 import './header.css';
+import {useMemo} from "react";
 
 export default function Header() {
+  const isAboutMePage = useMemo(
+    () => window.location.href.toLowerCase().indexOf('about-me') > -1,
+    []
+  );
+
   return (
     <>
       <div className="header">
         Katriyna
       </div>
       <div className="headerNavigation">
-        <div className="headerNavigationItem">
-          <div className="headerNavigationItemLink">
+        <div className={`headerNavigationItem ${isAboutMePage ? 'headerNavigationItemFocused' : ''}`}>
+          <a className="headerNavigationItemLink" href="/main?page=about-me">
             About me
-          </div>
+          </a>
         </div>
-        <div className="headerNavigationItem headerNavigationItemFocused">
-          <div className="headerNavigationItemLink">
+        <div className={`headerNavigationItem ${isAboutMePage ? '' : 'headerNavigationItemFocused'}`}>
+          <a className="headerNavigationItemLink" href="/main?page=watercolors">
             Watercolors
-          </div>
+          </a>
         </div>
       </div>
     </>
